@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github-test/static/css/main.59f51e7f.css",
+    "main.js": "/github-test/static/js/main.d3365168.js",
+    "static/js/787.76af2a89.chunk.js": "/github-test/static/js/787.76af2a89.chunk.js",
+    "index.html": "/github-test/index.html",
+    "main.59f51e7f.css.map": "/github-test/static/css/main.59f51e7f.css.map",
+    "main.d3365168.js.map": "/github-test/static/js/main.d3365168.js.map",
+    "787.76af2a89.chunk.js.map": "/github-test/static/js/787.76af2a89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59f51e7f.css",
+    "static/js/main.d3365168.js"
+  ]
+}
