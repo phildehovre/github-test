@@ -6,7 +6,6 @@ const DropdownMenu = (props) => {
 
     const { isOpen } = props
 
-    console.log(isOpen)
 
     const scrollToSection = (section) => {
         let target = document.querySelector(section)

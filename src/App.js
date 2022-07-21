@@ -21,11 +21,21 @@ function App() {
 
 
   const [isOpen, setIsOpen] = useState(false)
+  const [initialPath, setInitialPath] = useState('')
+  const [isInitialLoad, setIsInitialLoad] = useState(true)
   // const [bg, setBg] = useState(false)
 
   const handleOpen = () => {
     setIsOpen(!isOpen)
   }
+
+  useEffect(() => {
+    if (isInitialLoad) {
+      document.cookie = '{isInitialLoad:false}'
+    }
+  }, [isInitialLoad])
+
+  // console.log(decodeURIComponent(document.cookie).json())
 
   useEffect(() => {
     if (window.innerWidth < 1000) {
@@ -43,11 +53,14 @@ function App() {
     }
   })
 
+
   useEffect(() => {
+    // window.location.pathname = '/'
     setTimeout(() => {
       setLoading(false)
     }, 1500)
   }, [setLoading])
+
 
   return (
     <div className="App">
