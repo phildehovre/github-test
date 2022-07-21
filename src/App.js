@@ -60,7 +60,7 @@ function App() {
         // bg={bg ? 'transparent' : tertiary}
         />
         <Routes>
-          <Route path='/' element={<Homepage
+          <Route path='/github-test' element={<Homepage
             isSmallScreen={isSmallScreen}
             isOpen={isOpen}
           />}
